@@ -1,7 +1,36 @@
-build/
+# Visual Studio
+.vs/
 .vscode/
-.idea/
-*.o
+
+# Build directories
+Debug/
+Release/
+x64/
+x86/
+out/
+build/
+
+# Visual Studio user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# C/C++ build files
 *.obj
+*.o
 *.exe
+*.pdb
+*.ilk
+*.idb
+*.tlog
+*.log
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# OS files
 .DS_Store
+Thumbs.db
